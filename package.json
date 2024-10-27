@@ -10,7 +10,11 @@
     "Other"
   ],
   "activationEvents": [
-    "*"
+    "onLanguage:javascript",
+    "onLanguage:typescript",
+    "onLanguage:vue",
+    "onLanguage:javascriptreact",
+    "onLanguage:html"
   ],
   "main": "./dist/extension.js",
   "contributes": {

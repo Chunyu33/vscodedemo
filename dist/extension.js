@@ -125,7 +125,7 @@ function activate(context) {
     vscode6.languages.registerHoverProvider("javascript", hoverProvider),
     vscode6.languages.registerHoverProvider("typescript", hoverProvider),
     vscode6.languages.registerHoverProvider("vue", hoverProvider),
-    vscode6.languages.registerHoverProvider("jsx", hoverProvider),
+    vscode6.languages.registerHoverProvider("javascriptreact", hoverProvider),
     vscode6.languages.registerHoverProvider("html", hoverProvider)
   );
   console.log("Hover provider registered");

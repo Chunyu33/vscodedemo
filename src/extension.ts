@@ -21,7 +21,7 @@ export function activate(context: vscode.ExtensionContext) {
 		vscode.languages.registerHoverProvider('javascript', hoverProvider),
 		vscode.languages.registerHoverProvider('typescript', hoverProvider),
 		vscode.languages.registerHoverProvider('vue', hoverProvider),
-		vscode.languages.registerHoverProvider('jsx', hoverProvider),
+		vscode.languages.registerHoverProvider('javascriptreact', hoverProvider),
 		vscode.languages.registerHoverProvider('html', hoverProvider),
 	);
 	console.log('Hover provider registered');
